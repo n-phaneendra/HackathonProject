@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-05T23:18:40 IST" name="worldclock" finished-at="2024-06-05T23:20:01 IST" duration-ms="80812">
+    <groups>
+      <group name="regression">
+        <method signature="WorldClocktest.details()[pri:0, instance:worldclock1.WorldClocktest@279fedbd]" name="details" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validateWorldclock()[pri:1, instance:worldclock1.WorldClocktest@279fedbd]" name="validateWorldclock" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validatecurrentWeek()[pri:2, instance:worldclock1.WorldClocktest@279fedbd]" name="validatecurrentWeek" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validatedate()[pri:3, instance:worldclock1.WorldClocktest@279fedbd]" name="validatedate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validatebangtimezone()[pri:4, instance:worldclock1.WorldClocktest@279fedbd]" name="validatebangtimezone" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.bangtimevalidate()[pri:5, instance:worldclock1.WorldClocktest@279fedbd]" name="bangtimevalidate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.londontimezoneValidate()[pri:6, instance:worldclock1.WorldClocktest@279fedbd]" name="londontimezoneValidate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.LondonTimeValidate()[pri:7, instance:worldclock1.WorldClocktest@279fedbd]" name="LondonTimeValidate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.LondonTimeZonedifValidate()[pri:8, instance:worldclock1.WorldClocktest@279fedbd]" name="LondonTimeZonedifValidate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.NYtimezonevalidate()[pri:9, instance:worldclock1.WorldClocktest@279fedbd]" name="NYtimezonevalidate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.NYtimevalidate()[pri:10, instance:worldclock1.WorldClocktest@279fedbd]" name="NYtimevalidate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.NYtimedifvalidate()[pri:11, instance:worldclock1.WorldClocktest@279fedbd]" name="NYtimedifvalidate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.Nclosepopup()[pri:12, instance:worldclock1.WorldClocktest@279fedbd]" name="Nclosepopup" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.clickonecognizant()[pri:13, instance:worldclock1.WorldClocktest@279fedbd]" name="clickonecognizant" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.changewindow()[pri:14, instance:worldclock1.WorldClocktest@279fedbd]" name="changewindow" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.Clickallapps()[pri:15, instance:worldclock1.WorldClocktest@279fedbd]" name="Clickallapps" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.ValidateAtoZ()[pri:16, instance:worldclock1.WorldClocktest@279fedbd]" name="ValidateAtoZ" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.Clickonalphabate()[pri:17, instance:worldclock1.WorldClocktest@279fedbd]" name="Clickonalphabate" class="worldclock1.WorldClocktest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="WorldClocktest.details()[pri:0, instance:worldclock1.WorldClocktest@279fedbd]" name="details" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validateWorldclock()[pri:1, instance:worldclock1.WorldClocktest@279fedbd]" name="validateWorldclock" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.clickonecognizant()[pri:13, instance:worldclock1.WorldClocktest@279fedbd]" name="clickonecognizant" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.changewindow()[pri:14, instance:worldclock1.WorldClocktest@279fedbd]" name="changewindow" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.Clickallapps()[pri:15, instance:worldclock1.WorldClocktest@279fedbd]" name="Clickallapps" class="worldclock1.WorldClocktest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="WorldClocktest.details()[pri:0, instance:worldclock1.WorldClocktest@279fedbd]" name="details" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validateWorldclock()[pri:1, instance:worldclock1.WorldClocktest@279fedbd]" name="validateWorldclock" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validatecurrentWeek()[pri:2, instance:worldclock1.WorldClocktest@279fedbd]" name="validatecurrentWeek" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.validatedate()[pri:3, instance:worldclock1.WorldClocktest@279fedbd]" name="validatedate" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.Nclosepopup()[pri:12, instance:worldclock1.WorldClocktest@279fedbd]" name="Nclosepopup" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.clickonecognizant()[pri:13, instance:worldclock1.WorldClocktest@279fedbd]" name="clickonecognizant" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.changewindow()[pri:14, instance:worldclock1.WorldClocktest@279fedbd]" name="changewindow" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.Clickallapps()[pri:15, instance:worldclock1.WorldClocktest@279fedbd]" name="Clickallapps" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.ValidateAtoZ()[pri:16, instance:worldclock1.WorldClocktest@279fedbd]" name="ValidateAtoZ" class="worldclock1.WorldClocktest"/>
+        <method signature="WorldClocktest.Clickonalphabate()[pri:17, instance:worldclock1.WorldClocktest@279fedbd]" name="Clickonalphabate" class="worldclock1.WorldClocktest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-06-05T23:18:40 IST" name="mytest" finished-at="2024-06-05T23:20:01 IST" duration-ms="80812">
+      <class name="worldclock1.WorldClocktest">
+        <test-method is-config="true" signature="driversetup(java.lang.String)[pri:0, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:18:41 IST" name="driversetup" finished-at="2024-06-05T23:19:03 IST" duration-ms="22515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method signature="details()[pri:0, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:03 IST" name="details" finished-at="2024-06-05T23:19:06 IST" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- details -->
+        <test-method signature="validateWorldclock()[pri:1, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:06 IST" name="validateWorldclock" finished-at="2024-06-05T23:19:09 IST" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWorldclock -->
+        <test-method signature="validatecurrentWeek()[pri:2, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:09 IST" name="validatecurrentWeek" finished-at="2024-06-05T23:19:11 IST" duration-ms="2052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatecurrentWeek -->
+        <test-method signature="validatedate()[pri:3, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:11 IST" name="validatedate" finished-at="2024-06-05T23:19:14 IST" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedate -->
+        <test-method signature="validatebangtimezone()[pri:4, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:14 IST" name="validatebangtimezone" finished-at="2024-06-05T23:19:17 IST" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatebangtimezone -->
+        <test-method signature="bangtimevalidate()[pri:5, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="bangtimevalidate" finished-at="2024-06-05T23:19:17 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bangtimevalidate -->
+        <test-method signature="londontimezoneValidate()[pri:6, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="londontimezoneValidate" finished-at="2024-06-05T23:19:17 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- londontimezoneValidate -->
+        <test-method signature="LondonTimeValidate()[pri:7, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="LondonTimeValidate" finished-at="2024-06-05T23:19:17 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LondonTimeValidate -->
+        <test-method signature="LondonTimeZonedifValidate()[pri:8, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="LondonTimeZonedifValidate" finished-at="2024-06-05T23:19:17 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LondonTimeZonedifValidate -->
+        <test-method signature="NYtimezonevalidate()[pri:9, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="NYtimezonevalidate" finished-at="2024-06-05T23:19:17 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NYtimezonevalidate -->
+        <test-method signature="NYtimevalidate()[pri:10, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="NYtimevalidate" finished-at="2024-06-05T23:19:17 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NYtimevalidate -->
+        <test-method signature="NYtimedifvalidate()[pri:11, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="NYtimedifvalidate" finished-at="2024-06-05T23:19:17 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NYtimedifvalidate -->
+        <test-method signature="Nclosepopup()[pri:12, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:17 IST" name="Nclosepopup" finished-at="2024-06-05T23:19:18 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Nclosepopup -->
+        <test-method signature="clickonecognizant()[pri:13, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:18 IST" name="clickonecognizant" finished-at="2024-06-05T23:19:19 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonecognizant -->
+        <test-method signature="changewindow()[pri:14, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:19 IST" name="changewindow" finished-at="2024-06-05T23:19:19 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changewindow -->
+        <test-method signature="Clickallapps()[pri:15, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:19 IST" name="Clickallapps" finished-at="2024-06-05T23:19:22 IST" duration-ms="3405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickallapps -->
+        <test-method signature="ValidateAtoZ()[pri:16, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:22 IST" name="ValidateAtoZ" finished-at="2024-06-05T23:19:28 IST" duration-ms="5065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAtoZ -->
+        <test-method signature="Clickonalphabate()[pri:17, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:28 IST" name="Clickonalphabate" finished-at="2024-06-05T23:19:50 IST" duration-ms="22037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clickonalphabate -->
+        <test-method is-config="true" signature="close()[pri:0, instance:worldclock1.WorldClocktest@279fedbd]" started-at="2024-06-05T23:19:50 IST" name="close" finished-at="2024-06-05T23:20:01 IST" duration-ms="11332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- worldclock1.WorldClocktest -->
+    </test> <!-- mytest -->
+  </suite> <!-- worldclock -->
+</testng-results>
